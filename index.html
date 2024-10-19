@@ -17,6 +17,9 @@
             color: white;
             padding: 20px;
             text-align: center;
+            position: sticky; /* Make the header sticky */
+            top: 0; /* Stick the header at the top of the page */
+            z-index: 1000; /* Ensure it stays above other content */
         }
         nav {
             display: flex;
@@ -70,17 +73,18 @@
 </nav>
 
 <div class="container">
-    <section id="home">
+    <!---<section id="home">
         <h2>Data Science Insights</h2>
         <p>Explore my data science case studies and discover the power of data-driven insights.</p>
     </section>
+    --->
 
     <section id="about">
         <h2>About Me</h2>
         <p>Learn more about my background, skills, and passion for data science.</p>
     </section>
 
-    <section id="case-studies">
+    <!---<section id="case-studies">
         <h2>Case Studies</h2>
         <p>Dive into my latest data science projects and see how I drive business value.</p>
     </section>
@@ -89,6 +93,7 @@
         <h2>Data Science Blog</h2>
         <p>Stay up-to-date with my latest thoughts on data science, machine learning, and more.</p>
     </section>
+    --->
 
     <section id="projects">
         <h2>Projects</h2>
@@ -105,10 +110,11 @@
         <p>Reach out to me for data science consulting, collaboration, or just to chat about data.</p>
     </section>
 
-    <section id="resources">
+    <!---<section id="resources">
         <h2>Resources</h2>
         <p>Access my collection of data science resources, including tutorials, articles, and more.</p>
     </section>
+    --->
 </div>
 
 <footer>
